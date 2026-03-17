@@ -12,16 +12,13 @@ Orquestación: Docker & Docker Compose.
 
 Motor: MySQL 8.0 contenedorizado.
 
-🚀 Despliegue
-El entorno se levanta mediante un túnel de puertos (3307 -> 3306) para evitar conflictos con otros servicios en el servidor:
+### 🚀 Despliegue
+El entorno se levanta mediante un túnel de puertos (3307 -> 3306):
 
-Bash
-docker-compose up -d
-🧠 Aprendizajes Clave
-Infraestructura: Gestión de volúmenes persistentes y redes en Docker.
+`bash docker-compose up -d`
 
-SQL DDL: Creación de esquemas, tablas y definición de tipos de datos.
-
-SQL DML: Manipulación de registros, filtrado avanzado y optimización de consultas.
+### 🧠 Aprendizajes Clave
+* **Infraestructura:** Gestión de volúmenes y redes.
+* **SQL DDL:** Creación de esquemas y tablas.
 
 Versionamiento: Flujo de trabajo profesional con Git y GitHub mediante tokens de acceso.
